@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <title>Eligible</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/stylee.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+ 
+</head>
+<body>
+    
+  <h2 class="card-header info-color black-text text-center py-4">
+    <strong>Eligible Criteria</strong>
+  </h2>
+    <form action="eligiblee.php" method="post">
+  <div class="form-row">
+    <div class="form-group col-md-6">
+      <label for="inputaggregate">12th Aggregate(min)</label>
+      <input type="number" max="100" class="form-control" id="inputaggregate" name="puc">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputbe">BE Aggregate(min)</label>
+      <input type="number" step="0.01" class="form-control" id="inputbe" name="be">
+    </div>
+  </div>
+  <div class="form-group">
+    <label for="inputcomp">Company Name:</label>
+    <input type="text" class="form-control" id="inputcomp" name="companyname">
+  </div>
+    <div class="form-group col-md-4">
+      <label for="inputBranch">Branch</label>
+      <select id="inputState" name="branch" class="form-control">
+        <option selected>Choose..</option>
+          <option selected>Branch</option>
+        <option value="ISE">ISE</option>
+        <option value="CSE">CSE</option>
+        <option value="ECE">ECE</option>
+        <option value="EEE">EEE</option>
+        <option value="CE">CE</option>
+        <option value="ME">ME</option>
+            <option value="ANY">ANY</option>
+      </select>
+    </div>
+        <label>Student Must Have a Following Skills:</label>
+        <br>
+    <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="prob" id="inlineCheckbox1" value="YES">
+  <label class="form-check-label" for="inlineCheckbox1">Problem-Solving</label>
+</div>
+        <br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="comp" id="inlineCheckbox2" value="YES">
+  <label class="form-check-label" for="inlineCheckbox2">Computer Skills</label>
+</div>
+        <br>
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="comm" id="inlineCheckbox3" value="YES">
+  <label class="form-check-label" for="inlineCheckbox3">Communication</label>
+</div>
+        <br>
+        <div class="form-check form-check-inline">
+  <input class="form-check-input" type="checkbox" name="trans" id="inlineCheckbox2" value="YES">
+  <label class="form-check-label" for="inlineCheckbox2">Transferable Skills</label>
+</div>
+        <br>
+  <button type="submit" class="btn btn-primary">SET</button>
+        <button type="reset" class="btn btn-secondary">RESET</button>
+</form>
+    
+    
+    
+    
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+</html>

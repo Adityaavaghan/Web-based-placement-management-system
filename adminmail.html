@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+    <title>MAIL</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/stylee.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Slab&display=swap" rel="stylesheet">
+    </head>
+<body>
+
+       <div class="card">
+
+  <h5 class="card-header info-color white-text text-center py-4">
+    <strong>Mail To Student</strong>
+  </h5>
+
+  <div class="card-body px-lg-5 pt-0">
+    <form class="text-center" style="color: #757575;" action="mail.php" method="post">
+      <div class="md-form">
+        <input type="email" name="email" id="materialLoginFormto" class="form-control">
+        <label for="materialLoginFormto">TO</label>
+      </div>
+        <div class="md-form">
+               <label for="materialLoginFormto">Message:</label>
+        <textarea cols="form-control" name="mess"></textarea>
+     
+      </div>
+     
+      <button class="btn btn-outline-info btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" name="log_btn">Send</button>
+    </form>
+
+  </div>
+
+</div>
+      
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    </body>
+
+</html>
